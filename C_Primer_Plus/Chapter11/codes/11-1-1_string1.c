@@ -17,7 +17,8 @@ int main(void)
     words[8] = 'p';
     char words_undefine[] = "this is not define";
     puts(words);
-
+    puts(words_undefine);
+    
     return 0;
 }
 
