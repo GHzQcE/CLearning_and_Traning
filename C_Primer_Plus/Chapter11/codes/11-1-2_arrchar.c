@@ -1,4 +1,4 @@
-//指针数组，字符串数组（指针数组？？这是什么？）
+//11-2 指针数组，字符串数组
 #include <stdio.h>
 #define SLEN 40
 #define LIM 5
@@ -19,4 +19,6 @@ int main(void)
     int i;
 
     puts("Let's compare talents.");
+    puts(*mytalents[1]);
+    puts(yourtalents[1]);
 }

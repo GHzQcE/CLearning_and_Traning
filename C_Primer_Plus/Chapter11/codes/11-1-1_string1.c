@@ -18,12 +18,13 @@ int main(void)
     char words_undefine[] = "this is not define";
     puts(words);
     puts(words_undefine);
-    
+
     return 0;
 }
 
 //then more
 /*
+
     “字符串常量”实际上是“静态存储类别”，什么是静态存储类别呢？当程序执行到这里时，这个字符串
 就会被存储一次，但也仅此一次，多次执行不会创建多条存储。"......."<-像是这样的内容被视为指向
 存储地址的指针。

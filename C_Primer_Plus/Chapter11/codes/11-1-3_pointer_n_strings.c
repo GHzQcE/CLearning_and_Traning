@@ -1,4 +1,4 @@
-//指针与字符串的关系
+//11-3 指针与字符串的关系
 #include <stdio.h>
 int main(void)
 {
@@ -8,6 +8,7 @@ int main(void)
     copy = mesg;
     printf("%s\n", copy);
     printf("mesg = %s; &mesg = %p; value = %p\n", mesg, &mesg, mesg);   
+    printf("copy = %s; &copy = %p; value = %p\n", copy, &copy, copy);  
     //复习一下，&在C里面是取地址符号，但是这里的mesg本身是一个指针，那么&mesg就是存放这个指针的地址
 }
 
