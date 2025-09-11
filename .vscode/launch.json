@@ -1,0 +1,28 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "C/C++: 启动调试",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/../programs/${fileBasenameNoExtension}",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "C/C++: 编译到 programs 目录",
+            "miDebuggerPath": "C:/mingw64/bin/gdb.exe"
+        }
+    ]
+}
+//配置文件是用DeepSeek生成的
