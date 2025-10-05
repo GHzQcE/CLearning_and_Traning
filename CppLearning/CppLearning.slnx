@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="CppLearning/CppLearning.vcxproj" Id="5f08ecf6-bb88-489e-92ef-dd324ffd9c26" />
+</Solution>
